@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/lewissteele/recursive-touch/issues"
   },
-  "homepage": "https://github.com/lewissteele/recursive-touch#readme"
+  "homepage": "https://github.com/lewissteele/recursive-touch#readme",
+  "bin": "index.js",
+  "type": "module",
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
 }
