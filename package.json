@@ -20,6 +20,6 @@
   "type": "module",
   "dependencies": {
     "commander": "^9.4.0",
-    "glob": "^8.0.3"
+    "fast-glob": "^3.2.11"
   }
 }
