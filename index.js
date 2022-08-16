@@ -19,7 +19,7 @@ program
       time: `${date} ${hours}:${minutes}:${seconds}`,
     };
 
-    files.forEach(file => touch(file, options));
+    files.forEach(async file => await touch(file, options));
   });
 
 program.parse(process.argv);
